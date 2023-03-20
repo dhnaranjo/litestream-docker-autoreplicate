@@ -32,7 +32,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: dhnaranjo/litestream-autoreplicate
+          images: ghcr.io/dhnaranjo/litestream-autoreplicate
       - name: Publish images
         uses: docker/build-push-action@v4
         with:
