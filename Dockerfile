@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM litestream/litestream:latest
+FROM litestream/litestream:latest
 COPY run.sh /scripts/run.sh
 ENTRYPOINT []
 CMD ["sleep", "infinity"]
